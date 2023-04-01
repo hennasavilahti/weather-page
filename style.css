@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: azure;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 6px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+header {
+  height: 20%;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.weatherDisplay {
+  display: flex;
+  background-color: rgba(230, 240, 240, 0.877);
+  border: solid 5px rgba(217, 225, 226, 0.801);
+  border-radius: 5%;
+  width: 1000px;
+  height: 75%;
+  margin: 10%;
+}
+
+.detailsDisplay {
+  width: 50%;
+  height: 100%;
+}
+
+.weatherImage {
+  height: 67%;
+  width: 100%;
+}
+
+.tempDetails {
+  height: 33%;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.weatherDetails {
+  display: flexbox;
+  width: 100%;
+  max-height: 80%;
+  padding-top: 20%;
+}
+
+#weatherIcon {
+  height: 75%;
+  margin-top: 40px;
+}
+
+#backgroundImage {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -9999;
+}

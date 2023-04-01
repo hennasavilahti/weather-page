@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatherpage</title>
+  </head>
+  <body>
+    
+    <div class="page">
+
+      <div class="weatherDisplay">
+        
+        <div class="detailsDisplay">
+          <div class="weatherImage">
+            <img id="weatherIcon" src="icons/unknown.png" alt="Weather Icon">
+          </div>
+          <div class="tempDetails">
+            <h2 id="temp"></h2>
+            <h3 id="feels_like"></h3>
+          </div>
+        </div>
+
+        <div class="detailsDisplay">
+          <header><h1 id="town">TAMPERE</h1></header>
+          <div class="weatherDetails">
+            <p id="weatherNow" ></p>
+            <br><br>
+            <p id="wind"></p>
+            <p id="humidity" ></p>
+            <p id="pressure" ></p>
+          </div>
+        </div>
+      </div>
+      <img id="backgroundImage" src="tampereBackground.jpg" alt="Tampere">
+    </div>
+    <script src="script.js"></script>
+    </script>
+  </body>
+</html>
